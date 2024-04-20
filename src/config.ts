@@ -9,9 +9,9 @@ import type {
 } from "./types/config";
 
 export const identity: Identity = {
-  name: "Tim Witzdam",
+  name: "Lucas Vasquez",
   logo: "/logo.webp",
-  email: "tim@witzdam.com",
+  email: "lucasvasquezr21@gmail.com",
 };
 
 export const navBarLinks: NavBarLink[] = [
@@ -36,13 +36,13 @@ export const navBarLinks: NavBarLink[] = [
 export const socialLinks: SocialLink[] = [
   {
     title: "GitHub",
-    url: "https://github.com/TimWitzdam",
+    url: "https://github.com/lucasvasquezr21",
     icon: "mdi:github",
     external: true,
   },
   {
     title: "Mail",
-    url: "mailto:tim@witzdam.com",
+    url: "mailto:lucasvasquezr21@gmail.com",
     icon: "mdi:email",
   },
 ];
@@ -50,14 +50,14 @@ export const socialLinks: SocialLink[] = [
 // Home (/)
 export const homePageContent: HomePageContent = {
   seo: {
-    title: "Tim Witzdam",
+    title: "Lucas Vasquez",
     description:
       "Full time student from Germany who loves building cool things using code.",
     image: identity.logo,
   },
   role: "Student & Software Developer",
   description:
-    "I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.",
+    "I'm Lucas Vasquez, a full time student from Germany who also loves building cool things using code.",
   socialLinks: socialLinks,
   links: [
     {
@@ -74,7 +74,7 @@ export const homePageContent: HomePageContent = {
 // About (/about)
 export const aboutPageContent: AboutPageContent = {
   seo: {
-    title: "About | Tim Witzdam",
+    title: "About | Lucas Vasquez",
     description:
       "Full time student from Germany who loves building cool things using code.",
     image: identity.logo,
@@ -82,7 +82,7 @@ export const aboutPageContent: AboutPageContent = {
   subtitle: "Some information about myself",
   about: {
     description: `
-I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.
+I'm Lucas Vasquez, a full time student from Germany who also loves building cool things using code.
 <br/><br/>
 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque placeat est architecto tempora voluptatem sit suscipit aspernatur? <br/><br/>
 Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium consectetur nemo vero officia itaque.`, // Markdown is supported
@@ -103,7 +103,7 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
         company: {
           name: "Freelance",
           image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          url: "https://github.com/lucasvasquezr21",
         },
         date: "2021 - Present",
       },
@@ -112,7 +112,7 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
         company: {
           name: "Freelance",
           image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          url: "https://github.com/lucasvasquezr21",
         },
         date: "2019 - 2021",
       },
@@ -127,7 +127,7 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
 // Projects (/projects)
 export const projectsPageContent: ProjectPageContent = {
   seo: {
-    title: "Projects | Tim Witzdam",
+    title: "Projects | Lucas Vasquez",
     description: "Check out what I've been working on.",
     image: identity.logo,
   },
@@ -138,21 +138,21 @@ export const projectsPageContent: ProjectPageContent = {
       description: "Project 1 Description",
       image: "/demo-2.jpg",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "https://github.com/lucasvasquezr21",
     },
     {
       title: "Project 1",
       description: "Project 1 Description",
       image: "/demo-2.jpg",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "https://github.com/lucasvasquezr21",
     },
     {
       title: "Project 1",
       description: "Project 1 Description",
       image: "/demo-2.jpg",
       year: "2024",
-      url: "https://github.com/TimWitzdam",
+      url: "https://github.com/lucasvasquezr21",
     },
   ],
 };
@@ -160,7 +160,7 @@ export const projectsPageContent: ProjectPageContent = {
 // Blog (/blog)
 export const blogPageContent: BlogPageContent = {
   seo: {
-    title: "Blog | Tim Witzdam",
+    title: "Blog | Lucas Vasquez",
     description: "Thoughts, stories and ideas.",
     image: identity.logo,
   },
