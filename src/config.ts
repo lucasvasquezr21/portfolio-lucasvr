@@ -10,7 +10,7 @@ import type {
 
 export const identity: Identity = {
   name: "Lucas Vasquez",
-  logo: "/logo.webp",
+  logo: "/favicon.svg",
   email: "lucasvasquezr21@gmail.com",
 };
 
@@ -52,12 +52,12 @@ export const homePageContent: HomePageContent = {
   seo: {
     title: "Lucas Vasquez",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+      "Software Developer from Chile who loves building cool things using code.",
     image: identity.logo,
   },
-  role: "Student & Software Developer",
+  role: "Backend Developer",
   description:
-    "I'm Lucas Vasquez, a full time student from Germany who also loves building cool things using code.",
+    "I'm Lucas Vasquez, a Software Developer from Chile.",
   socialLinks: socialLinks,
   links: [
     {
@@ -82,7 +82,7 @@ export const aboutPageContent: AboutPageContent = {
   subtitle: "Some information about myself",
   about: {
     description: `
-I'm Lucas Vasquez, a full time student from Germany who also loves building cool things using code.
+I'm Lucas Vasquez, a full time student from Chile who also loves building cool things using code.
 <br/><br/>
 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque placeat est architecto tempora voluptatem sit suscipit aspernatur? <br/><br/>
 Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium consectetur nemo vero officia itaque.`, // Markdown is supported
